@@ -1,6 +1,7 @@
 ﻿@page "/editgame"
 
 <PageTitle>New Game</PageTitle>
+
 <h3>New Game</h3>
 
 @if (genres == null)
@@ -19,7 +20,7 @@ else
             <div class="mb-3">
                 <label for="genre" class="form-label">Genre:</label>
                 <InputSelect id="genre" @bind-Value="game.GenreId" class="form-select">
-                    <option value="">Select a Genre</option>
+                    <option value="">Select a Genre...</option>
                     @foreach (var genre in genres){
                         <option value="@genre.Id">@genre.Name</option>
                     }
