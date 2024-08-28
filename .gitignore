@@ -1,14 +1,320 @@
-*.dll
-*.pdb
-*.csproj
-*.sln
-*.suo
-*.user
-*.vscode
-*.vs
-*.vsix
-*.vsixmanifest
-obj/Debug/net8.0/GameStore.AssemblyInfo.cs
-obj/Debug/net8.0/GameStore.AssemblyInfoInputs.cache
-/bin/
-obj/
+*.swp
+package-lock.json
+.pytest_cache
+*.egg-info
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# CDK Context & Staging files
+.cdk.staging/
+cdk.out/
+lambda/.cache
+*.zip
+assets
+
+# Docker
+docker/products
+docker/cache
+docker/.vscode
+
+# Docker api-server
+# Byte-compiled / optimized / DLL files
+docker/api-server/__pycache__/
+docker/api-server/*.py[cod]
+docker/api-server/*$py.class
+
+# C extensions
+docker/api-server/*.so
+
+# Distribution / packaging
+docker/api-server/.Python
+docker/api-server/build/
+docker/api-server/develop-eggs/
+docker/api-server/dist/
+docker/api-server/downloads/
+docker/api-server/eggs/
+docker/api-server/.eggs/
+docker/api-server/lib/
+docker/api-server/lib64/
+docker/api-server/parts/
+docker/api-server/sdist/
+docker/api-server/var/
+docker/api-server/wheels/
+docker/api-server/*.egg-info/
+docker/api-server/.installed.cfg
+docker/api-server/*.egg
+docker/api-server/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+docker/api-server/*.manifest
+docker/api-server/*.spec
+
+# Installer logs
+docker/api-server/pip-log.txt
+docker/api-server/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+docker/api-server/htmlcov/
+docker/api-server/.tox/
+docker/api-server/.coverage
+docker/api-server/.coverage.*
+docker/api-server/.cache
+docker/api-server/nosetests.xml
+docker/api-server/coverage.xml
+docker/api-server/*.cover
+docker/api-server/.hypothesis/
+docker/api-server/.pytest_cache/
+
+# Translations
+docker/api-server/*.mo
+docker/api-server/*.pot
+
+# Django stuff:
+docker/api-server/*.log
+docker/api-server/local_settings.py
+docker/api-server/db.sqlite3
+
+# Flask stuff:
+docker/api-server/instance/
+docker/api-server/.webassets-cache
+
+# Scrapy stuff:
+docker/api-server/.scrapy
+
+# Sphinx documentation
+docker/api-server/docs/_build/
+
+# PyBuilder
+docker/api-server/target/
+
+# Jupyter Notebook
+docker/api-server/.ipynb_checkpoints
+
+# pyenv
+docker/api-server/.python-version
+
+# celery beat schedule file
+docker/api-server/celerybeat-schedule
+
+# SageMath parsed files
+docker/api-server/*.sage.py
+
+# Environments
+docker/api-server/.env
+docker/api-server/.venv
+docker/api-server/env/
+docker/api-server/venv/
+docker/api-server/ENV/
+docker/api-server/env.bak/
+docker/api-server/venv.bak/
+
+# Spyder project settings
+docker/api-server/.spyderproject
+docker/api-server/.spyproject
+
+# Rope project settings
+docker/api-server/.ropeproject
+
+# mkdocs documentation
+docker/api-server//site
+
+# mypy
+docker/api-server/.mypy_cache/
+docker/api-server/.test-env/
+
+# Docker iQ-Xtreme-python
+# Byte-compiled / optimized / DLL files
+docker/iQ-Xtreme-python/__pycache__/
+docker/iQ-Xtreme-python/*.py[cod]
+docker/iQ-Xtreme-python/*$py.class
+
+# C extensions
+docker/iQ-Xtreme-python/*.so
+
+# Distribution / packaging
+docker/iQ-Xtreme-python/.Python
+docker/iQ-Xtreme-python/build/
+docker/iQ-Xtreme-python/develop-eggs/
+docker/iQ-Xtreme-python/dist/
+docker/iQ-Xtreme-python/downloads/
+docker/iQ-Xtreme-python/eggs/
+docker/iQ-Xtreme-python/.eggs/
+docker/iQ-Xtreme-python/lib/
+docker/iQ-Xtreme-python/lib64/
+docker/iQ-Xtreme-python/parts/
+docker/iQ-Xtreme-python/sdist/
+docker/iQ-Xtreme-python/var/
+docker/iQ-Xtreme-python/wheels/
+docker/iQ-Xtreme-python/*.egg-info/
+docker/iQ-Xtreme-python/.installed.cfg
+docker/iQ-Xtreme-python/*.egg
+docker/iQ-Xtreme-python/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+docker/iQ-Xtreme-python/*.manifest
+docker/iQ-Xtreme-python/*.spec
+
+# Installer logs
+docker/iQ-Xtreme-python/pip-log.txt
+docker/iQ-Xtreme-python/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+docker/iQ-Xtreme-python/htmlcov/
+docker/iQ-Xtreme-python/.tox/
+docker/iQ-Xtreme-python/.coverage
+docker/iQ-Xtreme-python/.coverage.*
+docker/iQ-Xtreme-python/.cache
+docker/iQ-Xtreme-python/nosetests.xml
+docker/iQ-Xtreme-python/coverage.xml
+docker/iQ-Xtreme-python/*.cover
+docker/iQ-Xtreme-python/.hypothesis/
+docker/iQ-Xtreme-python/.pytest_cache/
+
+# Translations
+docker/iQ-Xtreme-python/*.mo
+docker/iQ-Xtreme-python/*.pot
+
+# Django stuff:
+docker/iQ-Xtreme-python/*.log
+docker/iQ-Xtreme-python/local_settings.py
+docker/iQ-Xtreme-python/db.sqlite3
+
+# Flask stuff:
+docker/iQ-Xtreme-python/instance/
+docker/iQ-Xtreme-python/.webassets-cache
+
+# Scrapy stuff:
+docker/iQ-Xtreme-python/.scrapy
+
+# Sphinx documentation
+docker/iQ-Xtreme-python/docs/_build/
+
+# PyBuilder
+docker/iQ-Xtreme-python/target/
+
+# Jupyter Notebook
+docker/iQ-Xtreme-python/.ipynb_checkpoints
+
+# pyenv
+docker/iQ-Xtreme-python/.python-version
+
+# celery beat schedule file
+docker/iQ-Xtreme-python/celerybeat-schedule
+
+# SageMath parsed files
+docker/iQ-Xtreme-python/*.sage.py
+
+# Environments
+docker/iQ-Xtreme-python/.env
+docker/iQ-Xtreme-python/.venv
+docker/iQ-Xtreme-python/env/
+docker/iQ-Xtreme-python/venv/
+docker/iQ-Xtreme-python/ENV/
+docker/iQ-Xtreme-python/env.bak/
+docker/iQ-Xtreme-python/venv.bak/
+
+# Spyder project settings
+docker/iQ-Xtreme-python/.spyderproject
+docker/iQ-Xtreme-python/.spyproject
+
+# Rope project settings
+docker/iQ-Xtreme-python/.ropeproject
+
+# mkdocs documentation
+docker/iQ-Xtreme-python//site
+
+# mypy
+docker/iQ-Xtreme-python/.mypy_cache/
+
+# our own generated files
+docker/iQ-Xtreme-python/exportnb.py
+docker/iQ-Xtreme-python/ipynb_output_filter
+docker/iQ-Xtreme-python/iq/**/*.cpp
+docker/iQ-Xtreme-python/iq/**/*.c
+docker/iQ-Xtreme-python/src/**/*.cpp
+docker/iQ-Xtreme-python/src/**/*.c
+docker/iQ-Xtreme-python/.vscode
+docker/iQ-Xtreme-python/tmp
+docker/iQ-Xtreme-python/.test-env
+
+# Docker iQ-Xtreme-python/modules/iQ-Xtreme-cpp
+# Prerequisites
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.d
+
+# Compiled Object files
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.slo
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.lo
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.o
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.obj
+
+# Precompiled Headers
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.gch
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.pch
+
+# Compiled Dynamic libraries
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.so
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.dylib
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.dll
+
+# Fortran module files
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.mod
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.smod
+
+# Compiled Static libraries
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.lai
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.la
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.a
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.lib
+
+# Executables
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.exe
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.out
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.app
+
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/build*
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/__pycache__
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/*.pyc
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/benchmar*.json
+
+docker/iQ-Xtreme-python/modules/iQ-Xtreme-cpp/.project.el
+
+docker/algorithm-experiments/dotnet-qubo/**/bin
+docker/algorithm-experiments/dotnet-qubo/**/obj
+
+# Ignore .NET bin and obj
+docker/api-server/devtest/**/bin/
+docker/api-server/devtest/**/obj/
+docker/api-server/devtest/**/node_modules/
+docker/web/**/bin/
+docker/web/**/obj/
+docker/web/**/node_modules/
+
+
+# Ignore DS store
+**/.DS_Store
+docker/api-server/rest-api/iq.sqlite
+
+# Ignore Node Modules
+node_modules/
+
+# Ignore CSS compiled file
+dashboard.bundle.css
+
+# Ignore Visual Studio Generated File
+iqserver.generated.sln
