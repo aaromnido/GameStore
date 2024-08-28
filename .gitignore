@@ -1,0 +1,10 @@
+*.dll
+*.pdb
+*.csproj
+*.sln
+*.suo
+*.user
+*.vscode
+*.vs
+*.vsix
+*.vsixmanifest
