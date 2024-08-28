@@ -8,3 +8,5 @@
 *.vs
 *.vsix
 *.vsixmanifest
+obj/Debug/net8.0/GameStore.AssemblyInfo.cs
+obj/Debug/net8.0/GameStore.AssemblyInfoInputs.cache
