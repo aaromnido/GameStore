@@ -69,12 +69,8 @@ else
 
     [SupplyParameterFromForm]
 
-    private GameDetails game { get; set; } = new()
-    {
-        Name = string.Empty,
-        ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow),
-    };
-
+    private GameDetails? game { get; set; }
+ 
     private Genre[]? genres;
 
     protected override void OnParametersSet()
@@ -87,10 +83,11 @@ else
         if (Id is not null)
         {
             game = GamesClient.GetGame(Id.Value);
+            
         }
         else
         {
-            game = new GameDetails
+            game = new()
             {
                 Name = string.Empty,
                 ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow),
